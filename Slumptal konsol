@@ -1,0 +1,23 @@
+using System;
+
+namespace Slumptal
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            Random slump = new Random();
+            Console.WriteLine("Skriv in ett tal mellan 1 och 100");
+           string tal = Console.ReadLine();
+            int inskrivet_Tal = int.Parse(tal);
+           if (slump)
+
+            
+        }
+    }
+}
+/*Console.WriteLine("Skriv in ett tal mellan 1 och 100");
+
+Console.ReadLine(tal);
+*/
