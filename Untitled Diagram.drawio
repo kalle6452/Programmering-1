@@ -1,1 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T08:59:53.011Z" agent="5.0 (Windows)" version="13.10.0" etag="MK8ZuCoVZAcik3EDW2-u" type="github"><diagram id="YSaElLBJpwKZZZ5y9fuQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-22T17:34:59.660Z" agent="5.0 (Windows)" etag="DWdTwFbTEPNIxDZSnfOl" version="13.10.0" type="github">
+  <diagram id="YSaElLBJpwKZZZ5y9fuQ" name="Page-1">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-1" value="Output: Skriv in ett tal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-3" value="Input: tal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-7" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCXg7jDE-vFRfBRrrclG-3" target="LCXg7jDE-vFRfBRrrclG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-9" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LCXg7jDE-vFRfBRrrclG-1" target="LCXg7jDE-vFRfBRrrclG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-10" value="Om tal är för lågt." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-11" value="Om tal är för högt" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-13" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LCXg7jDE-vFRfBRrrclG-10" target="LCXg7jDE-vFRfBRrrclG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="440" as="sourcePoint" />
+            <mxPoint x="320" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-14" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LCXg7jDE-vFRfBRrrclG-11" target="LCXg7jDE-vFRfBRrrclG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="440" as="sourcePoint" />
+            <mxPoint x="560" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-15" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LCXg7jDE-vFRfBRrrclG-28" target="LCXg7jDE-vFRfBRrrclG-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="570" as="sourcePoint" />
+            <mxPoint x="240" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-21" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;entryX=0.058;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="LCXg7jDE-vFRfBRrrclG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="635" as="sourcePoint" />
+            <mxPoint x="120" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="635" />
+              <mxPoint x="120" y="361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-23" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LCXg7jDE-vFRfBRrrclG-29" target="LCXg7jDE-vFRfBRrrclG-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="585" as="sourcePoint" />
+            <mxPoint x="630" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-24" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="LCXg7jDE-vFRfBRrrclG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="642.5" as="sourcePoint" />
+            <mxPoint x="740" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="643" />
+              <mxPoint x="740" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-25" value="Om rätt tal har skrivits in" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="460" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-26" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCXg7jDE-vFRfBRrrclG-25" target="LCXg7jDE-vFRfBRrrclG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="439.28932188134524" as="sourcePoint" />
+            <mxPoint x="410" y="389.28932188134524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-28" value="Du har skrivit in ett för lågt tal, skriv in ett lägre tal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-29" value="Du har skrivit in ett för högt tal, skriv in ett lägre tal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-30" value="Du har skrivit in rätt tal." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-31" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LCXg7jDE-vFRfBRrrclG-30" target="LCXg7jDE-vFRfBRrrclG-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="610" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-32" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="LCXg7jDE-vFRfBRrrclG-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="740" as="sourcePoint" />
+            <mxPoint x="440" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCXg7jDE-vFRfBRrrclG-33" value="Stopp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
