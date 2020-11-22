@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Slumptalkonsol
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random slump1 = new Random();
+           int slump2 = slump1.Next(100);
+            Console.WriteLine("Skriv in ett tal");
+            string tal = Console.ReadLine();
+            int tal1 = int.Parse(tal);
+            do
+            {
+                if (slump2 >= tal1)
+                    Console.WriteLine("Du har skrivit in ett för stort tal, skriv in ett nytt tal ");
+              
+                else if (slump2 <= tal1)
+                    Console.WriteLine("Du har skrivit in ett för litet tal, skriv in ett nytt tal ");
+
+                else
+                    Console.WriteLine("Du har skrivit in rätt tal ");
+            } while (tal1 != slump2); 
+
+            
+            
+            
+        }
+    }
+}
