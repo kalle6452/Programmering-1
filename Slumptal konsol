@@ -1,23 +1,47 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Slumptal
+namespace Slumptal_framework
 {
     class Program
     {
         static void Main(string[] args)
         {
-           
-            Random slump = new Random();
-            Console.WriteLine("Skriv in ett tal mellan 1 och 100");
-           string tal = Console.ReadLine();
-            int inskrivet_Tal = int.Parse(tal);
-           if (slump)
+          int  räknare = 0;
+            Console.WriteLine("Skriv in ett tal ");
+            Random slumptal = new Random();
+            int slumP = slumptal.Next(101);
+            string inskrivet_slumptal = Console.ReadLine();
+            int slumpTal = int.Parse(inskrivet_slumptal);
 
+
+
+           
+            while (slumP != slumpTal)
+            {
+                
+                Console.WriteLine("Skriv in ett tal");
+                 inskrivet_slumptal = Console.ReadLine();
+                 slumpTal = int.Parse(inskrivet_slumptal);
+                räknare = räknare + 1;
+                if (slumP < slumpTal)
+                   
+                Console.WriteLine("Det inskrivna talet är större än datorns tal. ");
+                
+                else if (slumP > slumpTal)
+                    Console.WriteLine("Det inskrivna talet är mindre än datorns tal. ");
+                else if (slumP == slumpTal)
+                    break;
+            }
+            while (slumP != slumpTal)
+            {
+               
+            }
+            Console.WriteLine("Du listade ut rätt tal, antal försök " + räknare);
             
         }
     }
 }
-/*Console.WriteLine("Skriv in ett tal mellan 1 och 100");
-
-Console.ReadLine(tal);
-*/
