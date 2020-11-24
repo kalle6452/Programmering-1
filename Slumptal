@@ -4,31 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Slumptalkonsol
+namespace Slumptal_framework
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Random slump1 = new Random();
-           int slump2 = slump1.Next(100);
-            Console.WriteLine("Skriv in ett tal");
-            string tal = Console.ReadLine();
-            int tal1 = int.Parse(tal);
-            do
+            Console.WriteLine("Skriv in ett tal ");
+            Random slumptal = new Random();
+            int slumP = slumptal.Next(101);
+            string inskrivet_slumptal = Console.ReadLine();
+            int slumpTal = int.Parse(inskrivet_slumptal);
+
+            while (slumP != slumpTal)
             {
-                if (slump2 >= tal1)
-                    Console.WriteLine("Du har skrivit in ett för stort tal, skriv in ett nytt tal ");
-              
-                else if (slump2 <= tal1)
-                    Console.WriteLine("Du har skrivit in ett för litet tal, skriv in ett nytt tal ");
-
-                else
-                    Console.WriteLine("Du har skrivit in rätt tal ");
-            } while (tal1 != slump2); 
-
-            
-            
+                
+                Console.WriteLine("Skriv in ett tal");
+                 inskrivet_slumptal = Console.ReadLine();
+                 slumpTal = int.Parse(inskrivet_slumptal);
+                if (slumP < slumpTal)
+                    Console.WriteLine("Det inskrivna talet är större än datorns tal. ");
+                else if (slumP > slumpTal)
+                    Console.WriteLine("Det inskrivna talet är mindre än datorns tal. ");
+                else if (slumP == slumpTal)
+                    break;
+            }
+            Console.WriteLine("Du listade ut rätt tal ");
             
         }
     }
